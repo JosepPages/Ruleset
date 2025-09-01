@@ -1,0 +1,26 @@
+{
+    "name": "JPP",
+    "description": "Pasamos algunos warnings a -solo- info y algunos warnings a errores",
+    "rules": [
+        {
+            "id": "AA0074",
+            "action": "Info",
+            "justification": "Comprueba el sufijo de Lbl, Err, etc."
+        },
+        {
+            "id": "LC0002",
+            "action": "Error",
+            "justification": "Documentar Commit"
+        },
+        {
+            "id": "LC0005",
+            "action": "Info",
+            "justification": "Comprueba alguna sintaxis"
+        },
+        {
+            "id": "LC0017",
+            "action": "Error",
+            "justification": "Se escribe en un flowField"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "name": "JPP",
-    "description": "Pasamos algunos warnings a -solo- info y algunos warnings a errores",
+    "description": "Se cambian algunos valores",
     "rules": [
         {
             "id": "AA0074",
@@ -21,6 +21,12 @@
             "id": "LC0017",
             "action": "Error",
             "justification": "Se escribe en un flowField"
+        },
+        {
+            "id": "LC0028",
+            "action": "Warning",
+            "justification": "No utilizar string en las suscripciones"
         }
     ]
 }
+

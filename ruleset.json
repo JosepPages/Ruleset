@@ -26,7 +26,13 @@
             "id": "LC0028",
             "action": "Warning",
             "justification": "No utilizar string en las suscripciones"
+        },
+        {
+            "id": "LC0068",
+            "action": "Warning",
+            "justification": "Poner permissions en codeUnits"
         }
     ]
 }
+
 

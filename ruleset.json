@@ -18,11 +18,6 @@
             "justification": "Comprueba alguna sintaxis"
         },
         {
-            "id": "LC0017",
-            "action": "Error",
-            "justification": "Se escribe en un flowField"
-        },
-        {
             "id": "LC0028",
             "action": "Warning",
             "justification": "No utilizar string en las suscripciones"
@@ -34,5 +29,6 @@
         }
     ]
 }
+
 
 
